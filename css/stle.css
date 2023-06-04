@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+/* the forst page section */
+.nav_bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.Logo{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:  10px auto;
+    cursor: pointer;
+}
+.logo_name{
+    /* background-color: royalblue; */
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.Nav_btn_uL{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    margin: auto 20px;
+   
+}
+.nav_li{
+    list-style: none;
+    text-decoration: none;
+    margin: auto 10px;
+    font-size: 20px; 
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+fisr_main
+.nav_li:hover{
+    background-color: lightgray;
+    /* padding-bottom: 25px; */
+    /* text-decoration: underline; */
+}
+.nav_a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.contact_BTN{
+    background-color: #5ec576;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px 16px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact_BTN:hover{
+    background-color: #51a865;
+    cursor: pointer;
+}
+/* the main section of the first section */
+.fisr_main{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+/* the left section of the body */
+.left_p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+}
+.main_name{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic; 
+    text-decoration: underline;
+}
+.main_dec{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.s_buttons{
+    /* background-color: blue; */
+    margin-top: 25px;
+}
+.btn{
+ margin: auto 0px;
+ font-size: 22px;
+ line-height: 28px;
+ border-radius: 50px;
+ border: solid 2px #60b373 ;
+ padding: 8px 23px;
+ background-color: white;
+ color: rgb(116, 114, 114);
+ cursor: pointer;
+ 
+}
+.btn:hover{
+    background-color:  #64ce7d;
+    color: #fff;
+    border: #Fff;
+}
+.loging{
+margin-right: 20px;
+}
+/* the container of the imag */
+.user_bg_img{
+    background: url(../images/blob\ \(1\).svg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(78, 39, 168); */
+    width: 500px;
+    height: 500px;
+}
+/* the right sectopn */
+.my_image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+/* spareating line */
+.line{
+    width: 100%;
+    height: 2px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: rgb(221, 219, 219);
+}
+/* second page */
+#about_me{
+    margin-bottom: 50px;
+}
+.second_title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 45px;
+
+}
+.second_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.persnal_info{
+    width: 40%;
+    height: 100%;
+
+}
+.image_section{
+    width: 40%;
+    height: 100%;
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+.secnd_image{
+    width: 100%;
+    height: 100%;
+    
+}
+.second_title_info{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.my_desc{
+    height: 300px;
+    line-height: 25px;
+    font-style: oblique;
+
+}
+/* The thired part or sectyionm  */
+.thired_title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+.thred_main{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+.Activity{
+  /* margin-top: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 15px;
+
+}
+.profile_image_section{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.project_desc{
+    width: 50%;
+    height: 80%;
+}
+.the_title_project{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.total_project_info{
+    width: 420px;
+    margin-top: 10px;
+    line-height: 21px;
+}
+.frist_project_image{
+    height: 280px;
+}
+.project_desc_1{
+    margin-left: 50px;
+    /* margin-right: 100px; */
+    /* background-color: fuchsia; */
+    /* margin-left: px; */
+}
+.second_pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 100px; */
+
+}
+.project_desc_2{
+    margin-right: 0px;
+}
+/* the iamge callary section */
+#activites{
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.title_image_callry{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 70px;
+}
+.title_line{
+    background-color: black;
+    height: 2px;
+    width: 100px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+
+.maintitle_gallary{
+    font-size: 35px;
+    font-weight: bold;
+}
+/* the man garrlay */
+.image_galsssry_container{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 800px;
+}
+/* thw dirat row images */
+.fisr_row_iamges{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.second_row_iamges{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+/* the man imagews */
+/* Gerna image class */
+.Active_images{
+    margin: auto 5px;
+    width: 35%;
+    height: 300px ;
+}
+.Active_2{
+    width: 470px;
+}
+/* The footer sectoiom */
+#footer{
+ margin-bottom: 5px;   
+
+}
+.footer{
+    background-color: #37383d ;
+    padding: 10px;
+}
+.footer_tites{
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.btn_contaiern{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+}
+.footer_btn{
+    margin-top: 100px;
+}
+/* teh footer line */
+.footer_line{
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    margin-top: 100px;
+}
+.footer_list{
+    margin-top: 70px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer_li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer_a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    margin: auto 15px;
+}
+.footer_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;    
+}
+/* last line of page */
+.the_connection{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_link{
+    color: #fff;
+    text-decoration: none;
+
+}
+.footer_img{
+    margin: auto 10px;
+}
+img{
+    cursor: pointer;
+}
+/* the animation part and javascript styles */
+.animation{
+    display: none;
+}
+/* javascript */
+.stick{
+    background-color: rgba(238, 238, 238, 0.5);
+}
